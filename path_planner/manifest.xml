@@ -1,0 +1,17 @@
+<package>
+  <description brief="path_planner">
+
+     path_planner
+
+  </description>
+  <author>Marin Assaliyski</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/path_planner</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="laser_obstacle_id"/>
+</package>
+
+

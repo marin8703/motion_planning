@@ -1,0 +1,9 @@
+<stack>
+  <description brief="motion_planning">motion_planning</description>
+  <author>Maintained by Marin Assaliyski</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/motion_planning</url>
+  <depend stack="ros" />
+
+</stack>

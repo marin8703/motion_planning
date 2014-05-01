@@ -1,0 +1,28 @@
+<package>
+  <description brief="path_planner">
+
+     path_planner
+
+  </description>
+  <author>Marin Assaliyski</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/path_planner</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="laser_geometry"/>
+  <depend package="laser_filters"/>
+  <depend package="hokuyo_node"/>
+  <depend package="tf"/>
+  <depend package="nav_msgs"/>
+  <depend package="message_filters"/>
+  <depend package="laser_obstacle_id"/>
+  <depend package="costmap_2d"/>
+  <depend package="gazebo"/>
+  	<export>
+   		<gazebo gazebo_media_path="${prefix}" />
+ 	</export>
+</package>
+
+
